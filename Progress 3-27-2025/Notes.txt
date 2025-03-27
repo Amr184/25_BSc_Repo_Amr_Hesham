@@ -1,0 +1,5 @@
+-I tried to implement a rl+pso approach using python but the results aren't improving as expected through the iterations
+
+-I started in the webots simulations by building the environment (agent-target-obstacles) but still nothing more right now
+
+-Hopefully both these tasks will be ready by next week as planned
