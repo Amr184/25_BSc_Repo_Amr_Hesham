@@ -1,0 +1,60 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.33610099075497374 0.33948046768982126 0.8785153021266194 1.6900384365649765
+  position 0.04843146743319943 -3.370225089608746 3.2705602823654027
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorTileSize 0.8 0.8
+}
+DEF Agent E-puck {
+  hidden position_0_0 1.3368010283548035e-10
+  hidden position_0_1 -2.25068439396e-09
+  hidden linearVelocity_0 0.00015409976024311503 8.37136691801779e-05 0.014103244327960826
+  hidden angularVelocity_0 -0.00561835452147905 0.010342251714718233 -2.0419429205132437e-06
+  hidden linearVelocity_1 0.00021366675852025138 0.00011619791594823264 0.013946412123294217
+  hidden angularVelocity_1 -0.005618385161322301 0.010342260420374878 -2.0417728335180772e-06
+  hidden linearVelocity_2 0.00021452779233097985 0.00011641779150025965 0.014257396215049322
+  hidden angularVelocity_2 -0.0056183216871868325 0.010342286935662866 -2.0421371543429105e-06
+  translation -0.7999605317520404 -0.7999668235258335 -0.0019672097713774248
+  rotation 0.4775741833862456 -0.8785564179377233 0.007843459912381261 0.0015096143577170728
+  controller "simple-epuck"
+  supervisor TRUE
+}
+CardboardBox {
+  translation 0.9 0.92 0.05
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.13 -0.68 0.05
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.13 -0.28 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.67 0.11 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.67 0.52 0.05
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}

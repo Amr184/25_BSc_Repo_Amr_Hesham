@@ -1,0 +1,104 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+  gravity 0
+}
+Viewpoint {
+  orientation -0.47217598311655673 0.4692348372608738 0.7462362283276485 1.8654073528372688
+  position 0.9831434624024279 -2.381482155292629 6.906480029711647
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 1 1 0
+  floorSize 2 2
+  floorTileSize 0.4 0.4
+}
+DEF AGENT_0 E-puck {
+  translation 0.1000000225178939 0.09998729875309402 0.002870443683259614
+  rotation 0.18877187985231442 -0.0005795919825138739 0.9820207948155464 0.00986399331437507
+  controller "<none>"
+}
+DEF AGENT_1 E-puck {
+  translation 0.1000161576118517 0.29996970557071645 0.0025025227740956436
+  rotation 0.16671154225516585 0.09530467089653409 0.9813889551977889 0.033114664771195
+  name "e-puck(1)"
+  controller "<none>"
+}
+DEF AGENT_2 E-puck {
+  translation 0.4995376586289662 0.09993227201081156 0.00530398477314931
+  rotation 0.01801669013663121 -0.19541274343992557 0.9805555866843054 0.1208192837458456
+  name "e-puck(2)"
+  controller "<none>"
+}
+Robot {
+  controller "pso_rl_supervisor"
+  supervisor TRUE
+}
+WoodenBox {
+  translation 0.55 0.76 0.025
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 0.76 0.76 0.025
+  name "wooden box(1)"
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 0.96 0.76 0.025
+  name "wooden box(2)"
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 1.16 0.76 0.025
+  name "wooden box(3)"
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 1.56 1.56 0.025
+  name "wooden box(4)"
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 1.76 0.56 0.025
+  name "wooden box(5)"
+  size 0.05 0.05 0.05
+}
+WoodenBox {
+  translation 0.35 1.76 0.025
+  name "wooden box(6)"
+  size 0.05 0.05 0.05
+}
+DEF box1 CardboardBox {
+  translation 2.7 1.35 0.026
+  size 0.05 0.05 0.05
+}
+DEF box2 CardboardBox {
+  translation 2.7 1.09 0.026
+  name "cardboard box(1)"
+  size 0.05 0.05 0.05
+}
+DEF box3 CardboardBox {
+  translation 2.7 1.57 0.026
+  name "cardboard box(2)"
+  size 0.05 0.05 0.05
+}
+DEF box4 CardboardBox {
+  translation 2.7 1.57 0.026
+  name "cardboard box(3)"
+  size 0.05 0.05 0.05
+}
+DEF box5 CardboardBox {
+  translation 2.7 1.57 0.026
+  name "cardboard box(4)"
+  size 0.05 0.05 0.05
+}
